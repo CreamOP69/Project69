@@ -42,6 +42,7 @@ def download_latest_release(download_path='.'):
         # Get the URL of the latest release
         url = data.get('url')
         # Extract the version from the URL
+        # Wao loda
         version = url.split("/")[-1]
         # Create the full path for the downloaded file
         pathto = os.path.join(download_path, version)
